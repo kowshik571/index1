@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;;
+}
+body{
+    font font-family:'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: #edeef0;
+
+}
+.kk
+{
+    font-size: 3em;
+    font-weight: 700;
+    color: #d42506;
+}
+.ak{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.ak:hover
+{
+    color: #d42506; 
+}
+header div p{
+    font-size: 2.5em;
+    font-weight: 200;
+}
+h1,h3,h4{
+    font-weight: 800;
+}
+h2{
+    font-weight: 500;
+}
+h1{
+    font-size: 5em;
+
+}
+h2{
+font-size: 4m;
+}
+h3{
+font-size: 2.5em;
+}
+h4{
+font-size: 1.8em;
+}
+.lb
+{
+    text-decoration: none;
+    text-align: center;
+    background-color: orangered ;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color: white;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 10%;
+}
+.lb:hover{
+    color: white;
+}
+#bio img
+{
+width: 250px;
+height: 250px;
+border-radius: 50%;
+}
+#bio p{
+    font-size: 1.5em;
+}
+nav  ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li{
+    margin: 0 20px;
+}
+#home{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 450px;
+}
+#bio
+{
+    display: flex;
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 100px;
+}
+#bio article *
+{
+    margin: 20px;
+}
+#pr{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        border-radius: 5%;
+}
+#pr div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+#pr,#skills{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin:10px 0;
+}
+#contact
+{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
