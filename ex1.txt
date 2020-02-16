@@ -1,5 +1,32 @@
-var student = {
-name : 'prograd',
-  class :'2ndclass',
-  rollno: '12'
-};
+// Checkpoint 1 | Creating the queen object
+let keys
+{
+  queen:'kq',elephant:'ke',camel:'kc',knight:'kk';
+}
+// Checkpoint 2 | Turning the queen
+if(kq==ke)
+  {
+    kq=move.right();
+  }
+else
+  {
+    kq=move.left();
+  }
+// Checkpoint 3 | Moving the queen
+if(kq==ke==kl==kk)
+  {
+    kq=move.right();
+  }
+else
+  {
+    kq=move.down();
+  }
+// Checkpoint 4 | Jump move the queen
+kq=move.up();
+// Checkpoint 5 |  Tracking the position
+kq=move.left();
+// Bonus 1 - Gotta keep her in the battle!
+  
+// Bonus 2 - The queen is more powerful than what you think!
+    
+// Bonus 3 - How about multiple queens?
