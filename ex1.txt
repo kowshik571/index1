@@ -1,0 +1,5 @@
+var student = {
+name : 'prograd',
+  class :'2ndclass',
+  rollno: '12'
+};
